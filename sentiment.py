@@ -24,7 +24,7 @@ if st.button("Analyze"):
 
     if user_text:
         sentiment, score = analyze_sentiment(user_text)
-        sentiment_scores.append(score)
+        st.write(f"Sentiment (Text Input): **{sentiment.upper()}**")
 
     if uploaded_file is not None:
         try:
@@ -47,14 +47,14 @@ if st.button("Analyze"):
         except ValueError as e:
             st.error(e)  
 
-    avg_sentiment = sum(sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0
+        avg_sentiment = sum(sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0
 
-    if avg_sentiment > 0.1:
-        conclusion = "Positive"
-    elif avg_sentiment < -0.1:
-        conclusion = "Negative"
-    else:
-        conclusion = "Neutral"
+        if avg_sentiment > 0.1:
+            conclusion = "Positive"
+        elif avg_sentiment < -0.1:
+            conclusion = "Negative"
+        else:
+            conclusion = "Neutral"
 
-    st.write("---")
-    st.write("Conclusion: The conversation is predominantly", conclusion.upper())
+        st.write("---")
+        st.write("Conclusion: The conversation is predominantly", conclusion.upper())
