@@ -29,3 +29,8 @@
 - **CSV File Handling:** The app will take CSV input with conversation text and output sentiment analysis results.
 
 ## User Interface
+![Screenshot 2024-10-10 213229](https://github.com/user-attachments/assets/66ce8ef8-0f61-4c8d-8630-644287af7db7)
+## Output
+![Screenshot 2024-10-10 213355](https://github.com/user-attachments/assets/aca0f5b1-acfb-450a-b813-96d050a5480c)
+## Link
+- [Web App](https://sentiment-gallabox.streamlit.app/)
