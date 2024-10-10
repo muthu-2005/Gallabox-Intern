@@ -7,5 +7,6 @@
 | Internship | Details | 
 |-------------|-------|
 | Intern name   | Artificial Intelligence Intern     | 
-| Duration   | 1 month (01/06/2024 - 30/06/2024)     | 
+ 
 | Mode | Onsite
+| Duration   | 1 month (01/06/2024 - 30/06/2024)     |
