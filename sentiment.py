@@ -22,7 +22,7 @@ def get_emoji(sentiment):
         return "🤔"
 
 # Streamlit app title
-st.title("Sentiment Analysis with Accurate Emoji")
+st.title("Sentiment Analysis with WhatsApp Conversations")
 st.write("---")
 
 # Input section (text and CSV)
