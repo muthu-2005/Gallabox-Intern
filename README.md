@@ -27,3 +27,5 @@
 - **Python:** Programming language to implement the sentiment pipeline.
 - **Pandas:** For data handling and processing CSV files containing WhatsApp conversation logs.
 - **CSV File Handling:** The app will take CSV input with conversation text and output sentiment analysis results.
+
+## User Interface
