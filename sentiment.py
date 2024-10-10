@@ -8,15 +8,15 @@ pipe = pipeline("text-classification", model="cardiffnlp/twitter-roberta-base-se
 # Function to analyze sentiment and return sentiment & score
 def analyze_sentiment(text):
     result = pipe(text)[0]
-    return result['label'], result['score']
+    return result['label'].upper(), result['score']  # Convert label to uppercase for consistency
 
 # Function for emoji based on sentiment
 def get_emoji(sentiment):
-    if sentiment == "POSITIVE":
+    if "POSITIVE" in sentiment:
         return "😊"
-    elif sentiment == "NEGATIVE":
+    elif "NEGATIVE" in sentiment:
         return "😢"
-    elif sentiment == "NEUTRAL":
+    elif "NEUTRAL" in sentiment:
         return "😐"
     else:
         return "🤔"
