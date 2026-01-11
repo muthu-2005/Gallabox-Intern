@@ -35,6 +35,4 @@
 #### Link
 - [Web App](https://sentiment-gallabox.streamlit.app/)
 
-#### Internship Completion Certificate
-![1720203180635](https://github.com/user-attachments/assets/04efdc2c-a119-4e06-82ce-d96d7e018703)
 
